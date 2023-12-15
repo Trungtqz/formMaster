@@ -155,7 +155,7 @@ function updatenhanVien(account) {
    nhanVienToUpdate.position = newPosition;
    nhanVienToUpdate.hours = parseFloat(newHours);
  
-   if (newPosition === "Giám đốc") {
+   if (newPosition === "Giám Đốc") {
      nhanVienToUpdate.tongLuong = nhanVienToUpdate.luong * 3;
    } else if (newPosition === "Trưởng phòng") {
      nhanVienToUpdate.tongLuong = nhanVienToUpdate.luong * 2;
