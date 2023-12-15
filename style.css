@@ -1,0 +1,46 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+/* .father {
+   width: 100%;
+} */
+
+.modal {
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1050;
+   display: none;
+   overflow: hidden;
+   outline: 0;
+   /* margin-top: 200px; */
+}
+
+.fade {
+   transition: opacity .15s linear;
+}
+
+.fade:not(.show) {
+   opacity: 1;
+}
+
+.modal-dialog {
+   margin-top: 52px;
+}
+ /* style modelContent */
+.form-group {
+   margin-bottom: 1rem;
+}
+
+.input-group-prepend {
+   margin-right: -1px;
+}
+.input-group-append, .input-group-prepend {
+   display: -ms-flexbox;
+   display: flex;
+}
